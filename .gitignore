@@ -1,5 +1,5 @@
-private/*
-tests
+private/
+test/
 
 .DS_Store
 dist/electron/*
