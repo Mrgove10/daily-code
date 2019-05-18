@@ -1,5 +1,8 @@
 # daily-code
 
+[![Build status](https://ci.appveyor.com/api/projects/status/bd38gyy4kg6cnths?svg=true)](https://ci.appveyor.com/project/Mrgove10/daily-code)
+[![Build Status](https://travis-ci.org/Mrgove10/daily-code.svg?branch=master)](https://travis-ci.org/Mrgove10/daily-code)
+
 > TIL app for developpers
 
 #### Build Setup
