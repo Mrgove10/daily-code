@@ -47,6 +47,7 @@ function createWindow() {
     win = null;
   });
 
+  app.getPath('appData');
 }
 
 try {
