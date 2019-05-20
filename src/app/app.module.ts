@@ -21,6 +21,9 @@ import { HomeComponent } from './components/home/home.component';
 import { SettingsComponent } from './components/settings/settings.component';
 import { CalendarComponent } from './components/calendar/calendar.component';
 import { EditorComponent } from './components/editor/editor.component';
+import { LMarkdownEditorModule } from 'ngx-markdown-editor';
+import { HelpComponent } from './components/help/help.component';
+
 /*
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -39,13 +42,15 @@ export function HttpLoaderFactory(http: HttpClient) {
     WebviewDirective,
     SettingsComponent,
     CalendarComponent,
-    EditorComponent
+    EditorComponent,
+    HelpComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpClientModule,
     AppRoutingModule,
+    LMarkdownEditorModule,
     //FontAwesomeModule,
     TranslateModule.forRoot({
       loader: {

@@ -10,6 +10,8 @@ https://github.com/sindresorhus/awesome-electron
 
 https://github.com/arkenthera/electron-vibrancy
 
+https://blog.dcpos.ch/how-to-make-your-electron-app-sexy
+
 ## TOOLS
 
 https://github.com/rhysd/electron-about-window
