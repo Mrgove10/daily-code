@@ -1,3 +1,13 @@
-<p>
-  editor works!
-</p>
+
+<md-editor`
+  style="height: 100%"
+  name="Content" 
+  [upload]="doUpload" 
+  [preRender]="preRenderFunc" 
+  [(ngModel)]="content" 
+  [height]="'200px'" 
+  [mode]="mode" 
+  [options]="options" 
+  required 
+  maxlength="500">
+</md-editor>
