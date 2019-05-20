@@ -1,8 +1,18 @@
 # infos
 
-## TOOLS
+## comiunity
 
 https://electronjs.org/community
+
+https://github.com/sindresorhus/awesome-electron
+
+## good looking
+
+https://github.com/arkenthera/electron-vibrancy
+
+## TOOLS
+
+https://github.com/rhysd/electron-about-window
 
 ## storage
 
