@@ -1,0 +1,35 @@
+<div class="window">
+    <div class="window-content">
+        <div class="pane-sm sidebar">
+            <nav class="nav-group">
+                <a routerLink="" class="nav-group-item active">
+                    <span class="icon icon-home"></span>    
+                    {{ 'PAGES.HOME.TITLE' | translate }}
+                </a>
+                <a routerLink="editor" class="nav-group-item">
+                    <span class="icon icon-pencil"></span>    
+                    Editor
+                </a>
+                <a routerLink="calendar" class="nav-group-item">
+                    <span class="icon icon-calendar"></span>    
+                    Calendar
+                </a>
+                <span routerLink="settings" class="nav-group-item">
+                    <span class="icon icon-cog"></span>
+                    {{ 'PAGES.SETTINGS.TITLE' | translate }}
+                </span>
+                <span routerLink="help" class="nav-group-item">
+                    <span class="icon icon-help"></span>
+                    Help
+                </span>
+                <span routerLink="test" class="nav-group-item">
+                    <span class="icon icon-archive"></span>
+                    test
+                </span>
+            </nav>
+        </div>
+        <div class="pane">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>
