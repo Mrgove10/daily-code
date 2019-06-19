@@ -78,3 +78,7 @@ try {
   // Catch Error
   // throw e;
 }
+
+function getPath(){
+  return"lol";
+}

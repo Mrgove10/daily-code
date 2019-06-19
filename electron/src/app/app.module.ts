@@ -24,9 +24,10 @@ import { CalendarComponent } from './components/calendar/calendar.component';
 import { EditorComponent } from './components/editor/editor.component';
 import { HelpComponent } from './components/help/help.component';
 
+
 //markdown editor
 import { LMarkdownEditorModule } from 'ngx-markdown-editor';
-
+import { TestComponent } from './components/test/test.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -41,7 +42,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     SettingsComponent,
     CalendarComponent,
     EditorComponent,
-    HelpComponent
+    HelpComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
@@ -49,7 +51,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     HttpClientModule,
     AppRoutingModule,
     LMarkdownEditorModule,
-    //FontAwesomeModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
@@ -58,11 +59,11 @@ export function HttpLoaderFactory(http: HttpClient) {
       }
     })
   ],
-  providers: [ElectronService],
+  providers: [
+    ElectronService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {
-  constructor(){
-  //  library.add(fas, far);
-  } 
+  constructor(){} 
 }
